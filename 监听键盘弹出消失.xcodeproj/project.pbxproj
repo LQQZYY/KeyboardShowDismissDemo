@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		912C9F041C7810D70035EF0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 912C9F031C7810D70035EF0E /* main.m */; };
+		912C9F071C7810D70035EF0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 912C9F061C7810D70035EF0E /* AppDelegate.m */; };
+		912C9F0A1C7810D70035EF0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912C9F091C7810D70035EF0E /* ViewController.m */; };
+		912C9F0D1C7810D70035EF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912C9F0B1C7810D70035EF0E /* Main.storyboard */; };
+		912C9F0F1C7810D70035EF0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912C9F0E1C7810D70035EF0E /* Assets.xcassets */; };
+		912C9F121C7810D70035EF0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912C9F101C7810D70035EF0E /* LaunchScreen.storyboard */; };
+		912C9F1D1C7810D70035EF0E /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 912C9F1C1C7810D70035EF0E /* ________Tests.m */; };
+		912C9F281C7810D80035EF0E /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 912C9F271C7810D80035EF0E /* ________UITests.m */; };
+		912C9F371C7811040035EF0E /* LQQMonitorKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 912C9F361C7811040035EF0E /* LQQMonitorKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		912C9F191C7810D70035EF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 912C9EF71C7810D70035EF0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 912C9EFE1C7810D70035EF0E;
+			remoteInfo = "监听键盘弹出消失";
+		};
+		912C9F241C7810D80035EF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 912C9EF71C7810D70035EF0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 912C9EFE1C7810D70035EF0E;
+			remoteInfo = "监听键盘弹出消失";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		912C9EFF1C7810D70035EF0E /* 监听键盘弹出消失.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "监听键盘弹出消失.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		912C9F031C7810D70035EF0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		912C9F051C7810D70035EF0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		912C9F061C7810D70035EF0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		912C9F081C7810D70035EF0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		912C9F091C7810D70035EF0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		912C9F0C1C7810D70035EF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		912C9F0E1C7810D70035EF0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		912C9F111C7810D70035EF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		912C9F131C7810D70035EF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912C9F181C7810D70035EF0E /* 监听键盘弹出消失Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "监听键盘弹出消失Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		912C9F1C1C7810D70035EF0E /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		912C9F1E1C7810D70035EF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912C9F231C7810D80035EF0E /* 监听键盘弹出消失UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "监听键盘弹出消失UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		912C9F271C7810D80035EF0E /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		912C9F291C7810D80035EF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912C9F351C7811040035EF0E /* LQQMonitorKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQQMonitorKeyboard.h; sourceTree = "<group>"; };
+		912C9F361C7811040035EF0E /* LQQMonitorKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQQMonitorKeyboard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		912C9EFC1C7810D70035EF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912C9F151C7810D70035EF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912C9F201C7810D80035EF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		912C9EF61C7810D70035EF0E = {
+			isa = PBXGroup;
+			children = (
+				912C9F011C7810D70035EF0E /* 监听键盘弹出消失 */,
+				912C9F1B1C7810D70035EF0E /* 监听键盘弹出消失Tests */,
+				912C9F261C7810D80035EF0E /* 监听键盘弹出消失UITests */,
+				912C9F001C7810D70035EF0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		912C9F001C7810D70035EF0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				912C9EFF1C7810D70035EF0E /* 监听键盘弹出消失.app */,
+				912C9F181C7810D70035EF0E /* 监听键盘弹出消失Tests.xctest */,
+				912C9F231C7810D80035EF0E /* 监听键盘弹出消失UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		912C9F011C7810D70035EF0E /* 监听键盘弹出消失 */ = {
+			isa = PBXGroup;
+			children = (
+				912C9F051C7810D70035EF0E /* AppDelegate.h */,
+				912C9F061C7810D70035EF0E /* AppDelegate.m */,
+				912C9F081C7810D70035EF0E /* ViewController.h */,
+				912C9F091C7810D70035EF0E /* ViewController.m */,
+				912C9F351C7811040035EF0E /* LQQMonitorKeyboard.h */,
+				912C9F361C7811040035EF0E /* LQQMonitorKeyboard.m */,
+				912C9F0B1C7810D70035EF0E /* Main.storyboard */,
+				912C9F0E1C7810D70035EF0E /* Assets.xcassets */,
+				912C9F101C7810D70035EF0E /* LaunchScreen.storyboard */,
+				912C9F131C7810D70035EF0E /* Info.plist */,
+				912C9F021C7810D70035EF0E /* Supporting Files */,
+			);
+			path = "监听键盘弹出消失";
+			sourceTree = "<group>";
+		};
+		912C9F021C7810D70035EF0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				912C9F031C7810D70035EF0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		912C9F1B1C7810D70035EF0E /* 监听键盘弹出消失Tests */ = {
+			isa = PBXGroup;
+			children = (
+				912C9F1C1C7810D70035EF0E /* ________Tests.m */,
+				912C9F1E1C7810D70035EF0E /* Info.plist */,
+			);
+			path = "监听键盘弹出消失Tests";
+			sourceTree = "<group>";
+		};
+		912C9F261C7810D80035EF0E /* 监听键盘弹出消失UITests */ = {
+			isa = PBXGroup;
+			children = (
+				912C9F271C7810D80035EF0E /* ________UITests.m */,
+				912C9F291C7810D80035EF0E /* Info.plist */,
+			);
+			path = "监听键盘弹出消失UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		912C9EFE1C7810D70035EF0E /* 监听键盘弹出消失 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 912C9F2C1C7810D80035EF0E /* Build configuration list for PBXNativeTarget "监听键盘弹出消失" */;
+			buildPhases = (
+				912C9EFB1C7810D70035EF0E /* Sources */,
+				912C9EFC1C7810D70035EF0E /* Frameworks */,
+				912C9EFD1C7810D70035EF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "监听键盘弹出消失";
+			productName = "监听键盘弹出消失";
+			productReference = 912C9EFF1C7810D70035EF0E /* 监听键盘弹出消失.app */;
+			productType = "com.apple.product-type.application";
+		};
+		912C9F171C7810D70035EF0E /* 监听键盘弹出消失Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 912C9F2F1C7810D80035EF0E /* Build configuration list for PBXNativeTarget "监听键盘弹出消失Tests" */;
+			buildPhases = (
+				912C9F141C7810D70035EF0E /* Sources */,
+				912C9F151C7810D70035EF0E /* Frameworks */,
+				912C9F161C7810D70035EF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				912C9F1A1C7810D70035EF0E /* PBXTargetDependency */,
+			);
+			name = "监听键盘弹出消失Tests";
+			productName = "监听键盘弹出消失Tests";
+			productReference = 912C9F181C7810D70035EF0E /* 监听键盘弹出消失Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		912C9F221C7810D80035EF0E /* 监听键盘弹出消失UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 912C9F321C7810D80035EF0E /* Build configuration list for PBXNativeTarget "监听键盘弹出消失UITests" */;
+			buildPhases = (
+				912C9F1F1C7810D80035EF0E /* Sources */,
+				912C9F201C7810D80035EF0E /* Frameworks */,
+				912C9F211C7810D80035EF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				912C9F251C7810D80035EF0E /* PBXTargetDependency */,
+			);
+			name = "监听键盘弹出消失UITests";
+			productName = "监听键盘弹出消失UITests";
+			productReference = 912C9F231C7810D80035EF0E /* 监听键盘弹出消失UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		912C9EF71C7810D70035EF0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Artup;
+				TargetAttributes = {
+					912C9EFE1C7810D70035EF0E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					912C9F171C7810D70035EF0E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 912C9EFE1C7810D70035EF0E;
+					};
+					912C9F221C7810D80035EF0E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 912C9EFE1C7810D70035EF0E;
+					};
+				};
+			};
+			buildConfigurationList = 912C9EFA1C7810D70035EF0E /* Build configuration list for PBXProject "监听键盘弹出消失" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 912C9EF61C7810D70035EF0E;
+			productRefGroup = 912C9F001C7810D70035EF0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				912C9EFE1C7810D70035EF0E /* 监听键盘弹出消失 */,
+				912C9F171C7810D70035EF0E /* 监听键盘弹出消失Tests */,
+				912C9F221C7810D80035EF0E /* 监听键盘弹出消失UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		912C9EFD1C7810D70035EF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912C9F121C7810D70035EF0E /* LaunchScreen.storyboard in Resources */,
+				912C9F0F1C7810D70035EF0E /* Assets.xcassets in Resources */,
+				912C9F0D1C7810D70035EF0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912C9F161C7810D70035EF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912C9F211C7810D80035EF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		912C9EFB1C7810D70035EF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912C9F0A1C7810D70035EF0E /* ViewController.m in Sources */,
+				912C9F071C7810D70035EF0E /* AppDelegate.m in Sources */,
+				912C9F371C7811040035EF0E /* LQQMonitorKeyboard.m in Sources */,
+				912C9F041C7810D70035EF0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912C9F141C7810D70035EF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912C9F1D1C7810D70035EF0E /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912C9F1F1C7810D80035EF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912C9F281C7810D80035EF0E /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		912C9F1A1C7810D70035EF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 912C9EFE1C7810D70035EF0E /* 监听键盘弹出消失 */;
+			targetProxy = 912C9F191C7810D70035EF0E /* PBXContainerItemProxy */;
+		};
+		912C9F251C7810D80035EF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 912C9EFE1C7810D70035EF0E /* 监听键盘弹出消失 */;
+			targetProxy = 912C9F241C7810D80035EF0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		912C9F0B1C7810D70035EF0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				912C9F0C1C7810D70035EF0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		912C9F101C7810D70035EF0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				912C9F111C7810D70035EF0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		912C9F2A1C7810D80035EF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		912C9F2B1C7810D80035EF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		912C9F2D1C7810D80035EF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "监听键盘弹出消失/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artup.www.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		912C9F2E1C7810D80035EF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "监听键盘弹出消失/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artup.www.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		912C9F301C7810D80035EF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "监听键盘弹出消失Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artup.www.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/监听键盘弹出消失.app/监听键盘弹出消失";
+			};
+			name = Debug;
+		};
+		912C9F311C7810D80035EF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "监听键盘弹出消失Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artup.www.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/监听键盘弹出消失.app/监听键盘弹出消失";
+			};
+			name = Release;
+		};
+		912C9F331C7810D80035EF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "监听键盘弹出消失UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artup.www.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "监听键盘弹出消失";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		912C9F341C7810D80035EF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "监听键盘弹出消失UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artup.www.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "监听键盘弹出消失";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		912C9EFA1C7810D70035EF0E /* Build configuration list for PBXProject "监听键盘弹出消失" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912C9F2A1C7810D80035EF0E /* Debug */,
+				912C9F2B1C7810D80035EF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		912C9F2C1C7810D80035EF0E /* Build configuration list for PBXNativeTarget "监听键盘弹出消失" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912C9F2D1C7810D80035EF0E /* Debug */,
+				912C9F2E1C7810D80035EF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		912C9F2F1C7810D80035EF0E /* Build configuration list for PBXNativeTarget "监听键盘弹出消失Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912C9F301C7810D80035EF0E /* Debug */,
+				912C9F311C7810D80035EF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		912C9F321C7810D80035EF0E /* Build configuration list for PBXNativeTarget "监听键盘弹出消失UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912C9F331C7810D80035EF0E /* Debug */,
+				912C9F341C7810D80035EF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 912C9EF71C7810D70035EF0E /* Project object */;
+}
